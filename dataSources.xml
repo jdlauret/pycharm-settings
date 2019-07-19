@@ -1,0 +1,16 @@
+<application>
+  <component name="dataSourceStorage" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="Data Warehouse" uuid="f25aff62-00ce-4a1b-900c-bb1b88bee968">
+      <driver-ref>snowflake</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>net.snowflake.client.jdbc.SnowflakeDriver</jdbc-driver>
+      <jdbc-url>jdbc:snowflake://vslr.snowflakecomputing.com?warehouse=ANALYST_WH&amp;db=VSLR</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Luna" uuid="3a3db374-225c-4ed9-91cf-f03f2e7f59d2">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://luna-prod.cfjzwtytsd7q.us-west-2.rds.amazonaws.com:5432/postgres</jdbc-url>
+    </data-source>
+  </component>
+</application>
