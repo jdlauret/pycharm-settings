@@ -13,9 +13,9 @@
       <jdbc-url>jdbc:postgresql://luna-prod.cfjzwtytsd7q.us-west-2.rds.amazonaws.com:5432/postgres</jdbc-url>
     </data-source>
     <data-source source="LOCAL" name="dds_stage" uuid="91f057be-8017-4cd5-8495-84e1db682d2d">
-      <driver-ref>mysql.8</driver-ref>
+      <driver-ref>mysql</driver-ref>
       <synchronize>true</synchronize>
-      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://dds-stg-mysql.cqwut46ebapk.us-east-1.rds.amazonaws.com:3306/dds_stg</jdbc-url>
       <driver-properties>
         <property name="autoReconnect" value="true" />
