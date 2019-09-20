@@ -1,0 +1,23 @@
+<scheme name="_@user_Default" version="142" parent_scheme="Default">
+  <metaInfo>
+    <property name="created">2019-09-18T17:17:21</property>
+    <property name="ide">Python</property>
+    <property name="ideVersion">2019.2.2.0.0</property>
+    <property name="modified">2019-09-20T11:48:08</property>
+    <property name="originalScheme">Default</property>
+  </metaInfo>
+  <attributes>
+    <option name="DEFAULT_DOC_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="9d0502" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="DEFAULT_LINE_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="9d0502" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+  </attributes>
+</scheme>
